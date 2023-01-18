@@ -1,0 +1,10 @@
+.html
+- - - test.html, web_code.html
+.js
+- - - javascript_file.js, new_js.js, test_js.js
+.pptx
+- - - demo.pptx, info.pptx
+.py
+- - - demo.py, test.py
+.txt
+- - - documentation.txt, info.txt, report.txt, simple.txt
