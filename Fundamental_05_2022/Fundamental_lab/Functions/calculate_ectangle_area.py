@@ -1,0 +1,5 @@
+width = int(input())
+height = int(input())
+
+area = lambda a,b : a * b
+print(area(width,height))
