@@ -1,0 +1,20 @@
+from exams.project_23_08_2021.project_23_08_21.space_station import SpaceStation
+
+sp_st = SpaceStation()
+print(sp_st.add_astronaut("Biologist", "Peter"))
+print(sp_st.add_astronaut("Biologist", "Peter"))
+print(sp_st.add_astronaut("Biologist", "Alf"))
+print(sp_st.add_astronaut("Geodesist", "Ivan"))
+print(sp_st.add_astronaut("Geodesist", "Andy"))
+print(sp_st.add_astronaut("Meteorologist", "Ben"))
+print(sp_st.add_astronaut("Meteorologist", "An"))
+print()
+#print(sp_st.add_planet("Mars","a, b, c, d, e, f"))
+print(sp_st.add_planet("Mars","a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8"))
+print(sp_st.add_planet("Venus","1, 2, 3, 4, 5, 6"))
+print()
+print(sp_st.retire_astronaut("Peter"))
+#print(sp_st.retire_astronaut("Piter"))
+
+print(sp_st.send_on_mission("Mars"))
+print(sp_st.report())
